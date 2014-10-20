@@ -34,13 +34,13 @@ DEFAULT_FAN_VALUE = 10
 # Minimum amplitude in spectrogram in order to be considered a peak.
 # This can be raised to reduce number of fingerprints, but can negatively
 # affect accuracy.
-DEFAULT_AMP_MIN = 15
+DEFAULT_AMP_MIN = 10
 
 ######################################################################
 # Number of cells around an amplitude peak in the spectrogram in order
 # for Dejavu to consider it a spectral peak. Higher values mean less
 # fingerprints and faster matching, but can potentially affect accuracy.
-PEAK_NEIGHBORHOOD_SIZE = 20
+PEAK_NEIGHBORHOOD_SIZE = 30
 
 ######################################################################
 # Thresholds on how close or far fingerprints can be in time in order
